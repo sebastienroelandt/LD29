@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="60" height="40" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tileset3" tilewidth="32" tileheight="32">
+  <image source="tileset3.png" trans="ffffff" width="256" height="256"/>
+ </tileset>
+ <layer name="background" width="60" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3VPQqAMAxA4fjvAazg6P0vacYMrQQFE/AN39QW8pa0iEgBEG5NMAO99Eb29k6j2hM0vu3tnJYEffTSS++z3kkdCRq/6p3VIPXdfRqts7vdX7vTerMZ3r/F8vZmYXujZ6GXXnrppRcAAAAAAAB/dQHDuKcUgCUAAA==
+  </data>
+ </layer>
+ <objectgroup name="begin" width="60" height="40">
+  <object name="Player" x="392" y="332" width="46" height="44"/>
+ </objectgroup>
+ <layer name="object" width="60" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3PwQqCUBBGYRXCJ2hptbHaWG0q3//J/AUXIXoZHQO593xwNo5zYbIMAABgXyp1Umd1Mc5CO55dy7tetbqqm7obZ6Edz67lXa9GPdRTvYyz0I5n1/LuWqU6Dn3UV7Wjf94zs7nv3t3f2dYOqvjDu0sVo2KXTxSrqVtjvreX0q097o1bavcCAAAAAAAgLR1txYxLgCUAAA==
+  </data>
+ </layer>
+ <objectgroup name="end" width="60" height="40">
+  <object name="End" x="1357" y="541" width="238" height="153"/>
+ </objectgroup>
+ <objectgroup name="message" width="60" height="40">
+  <object x="954" y="368" width="48" height="28">
+   <properties>
+    <property name="message" value="Yay ! I have always been proud of my jumping skills."/>
+   </properties>
+  </object>
+  <object x="495" y="376" width="48" height="28">
+   <properties>
+    <property name="message" value="CAREFUL !  I don't know how to swim. I have to JUMP !!"/>
+   </properties>
+  </object>
+  <object x="693" y="376" width="48" height="28">
+   <properties>
+    <property name="message" value="..."/>
+   </properties>
+  </object>
+  <object x="1367" y="456" width="146" height="68">
+   <properties>
+    <property name="message" value="Ohh.. Shit ! "/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

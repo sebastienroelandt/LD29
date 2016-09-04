@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="40" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="tileset.png" trans="ffffff" width="256" height="160"/>
+ </tileset>
+ <tileset firstgid="41" name="tilesetObject" tilewidth="32" tileheight="32">
+  <image source="tilesetObject.png" width="64" height="64"/>
+ </tileset>
+ <layer name="background" width="100" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2a2U7DMBBFUyRayiKgIUjwVv7/I4klW4yGWezUxC65D0dtjBHKPd7NbhiGHQAAAADARjjM3CkchXrHyn9/y0jZf868KXwI9V4Mfxqt37uXrEuyD0wRq84SWmfTwoOXtYfmYmI/5/Umpd6WfNC+oHmw8uF1uBOrj7zHzzF+H8nzGH+Xlv93H4cMB7l9IWd8CtmeZm4uoHVmf9knkgtrbPFceQ5C2z4TD7cdvH8vaPOD1LZpmdb+6XNq+0+k7HH4adfw8NuFNU/zrEf2Sct52RSzD5nfk/KHDt67RzQX0lgjjfFam6flKfvg4xyBD9uFNe5TD3xs0dq8lP1+wBileeBzBV/fJ7y5VmvzyH6ZB23OTn3CyxK51/OggfXnuh6sc4icPgHKHXj9QVo/wcV6Dqz9GvYEdT08Kw7QN9b38BXR+gA/z5D22qcO3unayJ0XpPMlrKPqe5D2bpoH77wpd28BbA8eWu7SXQFc+Nlbd9DWngG513Vh3f1o5xncA3Jfln1OP9Du8uHhsqxL/w8mZ26GhzwPuVlb+2Tv3hNrIh96H2PdM2tzsreGhYtyH162nqe0Rk3zwit5xl6h3Adf94/s+8TKrXVqyH0vlLV+z2uBZ1cKsgYAAADa8g3h7iCzgD4AAA==
+  </data>
+ </layer>
+ <objectgroup name="begin" width="100" height="40">
+  <object name="Player" x="78" y="1071" width="30" height="30"/>
+ </objectgroup>
+ <layer name="objects" width="100" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQEAAACAkP6v7ggKAAAAAAAAAAAAAAAAAAAAao3nfFeAPgAA
+  </data>
+ </layer>
+ <objectgroup name="end" width="100" height="40">
+  <object name="End" x="3133" y="275" width="36" height="34"/>
+ </objectgroup>
+ <objectgroup name="message" width="100" height="40">
+  <object x="773" y="1034" width="48" height="38">
+   <properties>
+    <property name="message" value="It's going up ! Maybe it will lead me to the exit.."/>
+   </properties>
+  </object>
+  <object x="1550" y="714" width="48" height="38">
+   <properties>
+    <property name="message" value="Go ! No time to waste !"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="bats" width="100" height="40">
+  <object x="2209" y="398" width="32" height="40">
+   <properties>
+    <property name="time" value="100"/>
+   </properties>
+  </object>
+  <object x="525" y="1037" width="32" height="40">
+   <properties>
+    <property name="time" value="1"/>
+   </properties>
+  </object>
+  <object x="1076" y="809" width="32" height="40">
+   <properties>
+    <property name="time" value="30"/>
+   </properties>
+  </object>
+  <object x="1420" y="702" width="32" height="40">
+   <properties>
+    <property name="time" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

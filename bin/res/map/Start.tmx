@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="40" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="tileset.png" trans="ffffff" width="256" height="160"/>
+ </tileset>
+ <tileset firstgid="41" name="tilesetObject" tilewidth="32" tileheight="32">
+  <image source="tilesetObject.png" width="64" height="64"/>
+ </tileset>
+ <layer name="background" width="100" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2Wa2+DMAxF6aR2W7tpD2im9lv3/3/kQItV68pJzGAipffDUSE4D3yC003TNBtCCLlD9j3HyKGC9dw79FEX9FEX9FEX9FEX9FEX9FEX9FEX9FEXKR+PPU+K55nn/e/xbxXt4xTzMuTqHNs6eDY119J2jmMLY8ZfM3vIy8FoQ18lB1aurXaE9dL2sev5SDjBnImHUq49eH0Mc671W9I+Pnu2zbVeiYeUDx03Bzkf+P2tob5ZdV18SK7x7EDeVf+3GV3oumah94eun6l4L0s5tfbyCdrkXt7Xypl+losbE6/bvxVW3xx/WeNSZxaeE7oW5dqt9y319+Bx6elvOUmt35pzaR+e/Zx777YnxF+8lr4tjBPUdQvjhxgb1Fi6XY/XwrxHeNZBXIBnHdyHhX3kakVpv341v+f9Q4JXFftSiLtESnGe8aayXciH/IeV/TSmVoiL3Np1PcztuZ0zF964W0beUbxg7dD51998ycUYHyTtBd0IWJc8+3PwcYnQxzxuptSHe6gvhBBCCCGEEEIIIYQQQtbDD6UxxlSAPgAA
+  </data>
+ </layer>
+ <objectgroup name="begin" width="100" height="40">
+  <object name="Player" x="688" y="754" width="30" height="30"/>
+ </objectgroup>
+ <layer name="object" width="100" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3OsQ0AIAgAQdZR3H8+qUycgIK75PuPAAAAAAAAAAAA+K1qd0/wZHW6JwAAAAAAgBEuaYt/A4A+AAA=
+  </data>
+ </layer>
+ <objectgroup name="end" width="100" height="40">
+  <object name="End" x="2258" y="635" width="36" height="34"/>
+ </objectgroup>
+ <objectgroup name="message" width="100" height="40">
+  <object x="832" y="731" width="48" height="38">
+   <properties>
+    <property name="message" value="Hey there buddy! it seems that you did't survive the fall. Good luck finding your way out. "/>
+   </properties>
+  </object>
+  <object x="1342" y="616" width="66" height="60">
+   <properties>
+    <property name="message" value="Too easy !"/>
+   </properties>
+  </object>
+  <object x="694" y="746" width="48" height="38">
+   <properties>
+    <property name="message" value="Ohh.. Where am I ? This place scares me to death. "/>
+   </properties>
+  </object>
+  <object x="1759" y="609" width="66" height="60">
+   <properties>
+    <property name="message" value="What's happens if I jump ?"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

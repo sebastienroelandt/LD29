@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="40" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="tileset.png" trans="ffffff" width="256" height="160"/>
+ </tileset>
+ <tileset firstgid="41" name="tilesetObject" tilewidth="32" tileheight="32">
+  <image source="tilesetObject.png" width="64" height="64"/>
+ </tileset>
+ <layer name="background" width="100" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2Y226CQBRFxybaVtr0opLUN8v//2Mh4aSnu3uGGcUKZT+soMh1r5lzwFUIYSWEEEIIIYQQQghRyH3LQwGPE7jm/0rn4tiybzn07B0HsvyQl6uxBQ+4RNCLnIyHzQ2ffcxDzI2cjOfipTB/5qOjmsD93DrLS3qu7xlsTjQkczaHlu7DPPgsjU8gllHMRWmd8p+X6ANzHMoyltG2IPehOmUssYf4HFkNQUfMR8ppiiZxnqXWLPMR84DZYj7MRSrjkrr1H31gj8b5731YHu8tdz3PkFUFx065aODY+D3HyWsoe8dPMQUPmBfWZOajgt+b8Lte2XNtaY0amn+sr1/al4wp1CF2X97JFn5riA+cHzk16hxPqb6F65Acl1OaF4hljj7Y/PB1bE0cpTJkfSlWt+z7rsc+127dzq3z+9ZuezyOHevW8yI1ViqyfcwH1vJjxvFjLlL+bPkUvvvXmFxz/MdIPXdizeq273oAjlc2P3JryRjM6ZmKjefUcyqrCUM5pvpHzv74PDVUq3B+zNUH+z+bZVfii/XzVP6n8LNGl8K8zM1H3V8763l+PeZ46tm7/Q6wf018+Nytb/p3lNi7yrn1bU4+NiQHxlt/b3UkuxTrjPP5bXBbO7f582PAjw0cS7Z+Tj7O8cayu8WY6TzljI2/vt6lslHWQgghhBBCCFHMF/XDGq6APgAA
+  </data>
+ </layer>
+ <objectgroup name="begin" width="100" height="40">
+  <object name="Player" x="204" y="870" width="30" height="30"/>
+ </objectgroup>
+ <layer name="objects" width="100" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQEAAACAkP6v7ggKAAAAAAAAAAAAAAAAAAAAao3nfFeAPgAA
+  </data>
+ </layer>
+ <objectgroup name="end" width="100" height="40" opacity="0.98">
+  <object name="End" x="2103" y="706" width="36" height="34"/>
+ </objectgroup>
+ <objectgroup name="message" width="100" height="40">
+  <object x="636" y="885" width="48" height="38">
+   <properties>
+    <property name="message" value="Ohh boy ! I don't I have the shape to jump up there."/>
+   </properties>
+  </object>
+  <object x="1107" y="886" width="48" height="38">
+   <properties>
+    <property name="message" value="Woow, that was close. "/>
+   </properties>
+  </object>
+  <object x="912" y="600" width="48" height="38">
+   <properties>
+    <property name="message" value="The hard part is done ! I think jumping down will be a peace of cake."/>
+   </properties>
+  </object>
+  <object x="1400" y="892" width="48" height="38">
+   <properties>
+    <property name="message" value="Ohh... Seriously ?!"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

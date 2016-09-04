@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="40" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="tileset.png" trans="ffffff" width="256" height="160"/>
+ </tileset>
+ <tileset firstgid="41" name="tilesetObject" tilewidth="32" tileheight="32">
+  <image source="tilesetObject.png" width="64" height="64"/>
+ </tileset>
+ <layer name="background" width="100" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2V627CMAyFwyRgINDoQiqx939QWimWPM+XtBUUtPPjU6vGcZ1znGSTUtoAAAAAAAAAAAAAAAAAAAAAAAAAALwJ+4HPyuEF6vnPjF78DFwrN3iyKsfqQ6mM7xd4sgp8bxTxXLJP+Pm35hm4X/n/U7Xi5xRR0u+za6qu8vzj3j7ynpI9QOsryjp4DS2ePcpXTSt+Tmm+WP4ckq7Fl5H3lv7eU5oukW4WWm95vUbnMtVrecZzezFTGXWju8LS2/LG0ld64K3d+34JcmjjVn5rrAgsDZbg5ZM6kx9SV6s2/rTmRJ5ZtS7RQfuHVZu39/n3HKw9+m+LHjJG7g+ir/Vk9t4b+fkYvbf0m1xLL56evlRTSz9445SjF5wGzkFNmVGSrQ+PpVwUn0Xc6Mdu4GMCHdP9uzGO18rXYeWguVr/yfiuxmQx3jl+5KD2raILz+fN5TVFcZI59z+vc9sYRzVS78m1W3NpDvdNxtP+PolxLcfVyRNxZPOjubuZ/3gmc2ps8T7KK/tirkbvoDEAAAAAAACvzB3/VDxmgD4AAA==
+  </data>
+ </layer>
+ <objectgroup name="begin" width="100" height="40">
+  <object name="Player" x="142" y="918" width="30" height="30"/>
+ </objectgroup>
+ <layer name="objects" width="100" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQEAAACAkP6v7ggKAAAAAAAAAAAAAAAAAAAAao3nfFeAPgAA
+  </data>
+ </layer>
+ <objectgroup name="end" width="100" height="40">
+  <object name="End" x="2697" y="918" width="36" height="34"/>
+ </objectgroup>
+ <objectgroup name="message" width="100" height="40">
+  <object x="269" y="911" width="48" height="38">
+   <properties>
+    <property name="message" value="They certainly don't look like friendly to me !"/>
+   </properties>
+  </object>
+  <object x="640" y="912" width="48" height="38">
+   <properties>
+    <property name="message" value="HA ! Don't play with batman, bat !."/>
+   </properties>
+  </object>
+  <object x="2287" y="920" width="48" height="38">
+   <properties>
+    <property name="message" value="Double dodge !"/>
+   </properties>
+  </object>
+  <object x="1699" y="916" width="48" height="38">
+   <properties>
+    <property name="message" value="Perhaps, it would have been a good idea to take a leg of the skeleton to defend myself !"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="bats" width="100" height="40">
+  <object x="463" y="913" width="32" height="40">
+   <properties>
+    <property name="time" value="100"/>
+   </properties>
+  </object>
+  <object x="896" y="924" width="32" height="40">
+   <properties>
+    <property name="time" value="1"/>
+   </properties>
+  </object>
+  <object x="1324" y="888" width="32" height="40">
+   <properties>
+    <property name="time" value="30"/>
+   </properties>
+  </object>
+  <object x="1888" y="944" width="32" height="40">
+   <properties>
+    <property name="time" value="50"/>
+   </properties>
+  </object>
+  <object x="2180" y="908" width="32" height="40">
+   <properties>
+    <property name="time" value="100"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

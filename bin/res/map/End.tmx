@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="40" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="tileset.png" trans="ffffff" width="256" height="160"/>
+ </tileset>
+ <tileset firstgid="41" name="tileset3" tilewidth="32" tileheight="32">
+  <image source="tileset3.png" trans="ffffff" width="256" height="256"/>
+ </tileset>
+ <layer name="background" width="100" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2X3WrDMAxG08F+unUUtnTQ3Xm5HewJ9v6vNQdiFoRky46TGPW7ODRxXVN0JNk+dF13AAAAAAAwym8me/9f68BHW8BHW8DHtjx6ngjH6btv+Njcw6enJ1wnJz/wsZkLzgN1coaP1T1wNXERnnv4EGPIccxcI1UTHPChj+GVeJHcSWtIdfHhefPcFbB33NZykZPLwcs54zcxNyfPfQNx2CP/S/O5NvO1XxqIz9axL+nlsVjG9uT5GP2Ovo99ymptBA/aPlIz/3PXCnvG3jFbsw5CDXwpY8a909zX1IObxdhNnz3z/D4xjp0aiF9tD5oepMnb0joJcS05F1npUbGzUKqn5zqS5s1z3Epca9eE1IvG2Lnuv29o+1PMXaiJW3Ux8pzwIOXyvJ+8CnM0e8UtnU+X1AXHIMSOc1qyd1j0Ebuf5dwbUvGUfAxkHn2PzbHoQ+o/OWhyO1UfJVj2IcVUczdI3ScGxoergFUfqXNN7MxZkssPXdldwerdgfoI99WeeQ4uwhjXzy/MOB2zmMtroM1V7owaqxs6Dh91WboHw0d9H24B8FGXpXuwxb0XAAAAAAC0zR/3l/d4gD4AAA==
+  </data>
+ </layer>
+ <objectgroup name="begin" width="100" height="40">
+  <object name="Player" x="135" y="888" width="36" height="36"/>
+ </objectgroup>
+ <layer name="objects" width="100" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3WO4oCQRiF0V6PD8YVCAY6kzia+EjU2f8q5lY0wUCBYNFlcw58SYX/paGHYZo+0uoNmyp79MUefbFHX+zRF3v0ZZk2w/j3tcefeZo92SKtB3v0Yuzviv/KdzXWd0JdudE27dJn+qq82aO9cqN9+k6HdKy82aO9cqNTOqdLulbe7NFeudEt3dMj/VTe7NHOs//JrwoAAAAAAAAAAACm4BdemZ8WgD4AAA==
+  </data>
+ </layer>
+ <objectgroup name="end" width="100" height="40">
+  <object name="End" x="2502" y="407" width="36" height="34"/>
+ </objectgroup>
+ <objectgroup name="message" width="100" height="40">
+  <object x="202" y="899" width="48" height="38">
+   <properties>
+    <property name="message" value="Do you think that it's really the end ?"/>
+   </properties>
+  </object>
+  <object x="2168" y="445" width="48" height="38">
+   <properties>
+    <property name="message" value="Yes ! Freedom !"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="bats" width="100" height="40">
+  <object x="1254" y="774" width="32" height="40">
+   <properties>
+    <property name="time" value="50"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

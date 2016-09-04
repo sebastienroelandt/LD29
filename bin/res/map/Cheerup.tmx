@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="40" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="tileset.png" trans="ffffff" width="256" height="160"/>
+ </tileset>
+ <tileset firstgid="41" name="tilesetObject" tilewidth="32" tileheight="32">
+  <image source="tilesetObject.png" width="64" height="64"/>
+ </tileset>
+ <layer name="background" width="100" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2Z204CMRCGFxMVTxFdINE74P3fUZp0kmaYY+myXZyLL0jb3dL5O4fW1TAMqyAIgqBbns+sMy8d/J7/Cujwe2ab+QldutABA7qENtNrIelA8dbB714aZQ7g9rSmxQ59lr4SPuLTAdu5jDdrZgxl+3v0EbxXp4rBaZ5PxY5HoW/H6EG1bSrWMUfdRtme2odT1C2vihZTwMUuzQ4bot9iD+q9Et7c2CoWU7lAij1cbpCe5cZaY6FlHupdAOw5/Ey5FqmPmxf3ba7UxJqXNY1agONhje4cWA9uXS3mrPWTmnpV2iuW79qaNNt43wf9oMeY2edPGFO2e9bPtdVoQuUMLi+3wLLnLHpadSu/p/U+nXkw8oX0svpGOQafg7VzhKSHxQ6nSvtTjAXb4dIWWjs1puzzxo6k3YdhXdb9k7SB+vWYKetMqb6l9NBsL405Kf3fw+X+LG3x7ujjuLbmvCZmaM8mrbx5o4UPUCR7PjK2OGTw+VHqawmnhxY7LPnM2t4id1jjGKcFjvV4jNR3Cz2stirjb/kMFeMkjbS6Btvbul/wuN7vTaQzslb3lDEY4us4XOZJj2+1qrM4XZekhyV/JvZZC86fqTqOs5V1Tq92XN+S9MBgW8F3KQZTgFZYFw1JK+mugWNciB4HJ7VrwvV1TX1bC8TWKXNxCzznxxb1RZrP6yceH+DG9e4Xc8LFyB0Bti91PyE9B77Ru1/MCfYRT03F3RdxtSCuOwKaW/0vKuKUDfAR6j7uUPwN7dAWekyribeWgDinaQVnpMgb82gIvgY6LKG2vWdudd8XBEEQBEEQBEHQI395kfoBgD4AAA==
+  </data>
+ </layer>
+ <objectgroup name="begin" width="100" height="40">
+  <object name="Player" x="181" y="434" width="36" height="36"/>
+ </objectgroup>
+ <layer name="objects" width="100" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQEAAACAkP6v7ggKAAAAAAAAAAAAAAAAAAAAao3nfFeAPgAA
+  </data>
+ </layer>
+ <objectgroup name="end" width="100" height="40">
+  <object name="End" x="3102" y="461" width="36" height="34"/>
+ </objectgroup>
+ <objectgroup name="message" width="100" height="40">
+  <object x="520" y="689" width="48" height="38">
+   <properties>
+    <property name="message" value="This part will be hard !"/>
+   </properties>
+  </object>
+  <object x="901" y="595" width="48" height="38">
+   <properties>
+    <property name="message" value="...."/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="bats" width="100" height="40">
+  <object x="1744" y="542" width="32" height="40">
+   <properties>
+    <property name="time" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
